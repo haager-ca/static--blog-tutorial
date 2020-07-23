@@ -1,51 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caius Haager</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <style>
-      h1  {
-          color:blue;
-          border: .5rem solid red;
-          width:50%
-      }
-      #ueberschrift1 {
-          font-weight: 100;
-          color: green;
-      }
-      .niceUeberschrift {
-          font-weight:200;
-          color: greenyellow;
-      }
-    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<style>
+    * {
+        border:1px solid red;
+    }
+</style>
 </head>
+
 <body>
-    <h1>Caius Haager</h1>
-    <h1 id="ueberschrift1">Diese Seite habe ich selbst Programiert</h1>
-    <h1 class="niceUeberschrift">Es hat viel Spaß gemacht</h1>
-    <h2>Schule ist doof</h2>
-    <h3>Programieren macht Spaß </h3>
-    <h4>Beim Programieren kann man voll lustige Sachen ausprobieren</h4>
-    <h5>Bei mier gibt es ganz viele Überschriften</h5>
-    <h6>Ich habe meinen erste Website total umprogramiert</h6>
-    <p>Ich mag es zu Programieren</p>
-    <img src="Bild.jpg" alt="Eine Beschreibung des Bildes,falls dies nicht angezeigt werden kann.">
-    <p>Vier Sachen über mich</p>
-    <ol>
-        <li>cool</li>
-        <li>schlau</li>
-        <li>lustig</li>
-        <li>verrückt</li>
-    </ol>
-    <p>Meine Hobbies</p>
-    <ul>
-        <li>Programieren</li>
-        <li>Mountaibiken</li>
-        <li>Klettern</li>
-        <li>Freunde treffen</li>
-    </ul>
-    <a target="_blank" href="eintrag_1.html">Hier geht es zu Eintrag 1</a>
-    </body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h1>Caius Haager</h1>
+                <h1 class="text-danger font-weight-bold">Diese Seite habe ich selbst Programiert</h1>
+                <h1 class="niceUeberschrift">Es hat viel Spaß gemacht</h1>
+            </div>
+            <div class="col-6">
+                <p>Ein kleiner Blog Eintrag</p>
+                <img src="Bild.jpg" alt="Eine Beschreibung des Bildes,falls dies nicht angezeigt werden kann.">
+                <a target="_blank" href="eintrag_1.html">Hier geht`s zu Eintrag 1</a>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
