@@ -90,11 +90,13 @@
         <p>Melde dich jetzt an!</p>
         <input class="form-control" id="emailInput" placeholder="E-mail Adresse">
         <input class="form-control" id="nameInput" placeholder="Name">
-        <button class="btn btn-outline-primary">Anmelden</button>
+        <button class="btn btn-outline-primary" id="submitBtn">Anmelden</button>
     </div>
-    <skript>
-        document.getElementById("")
-    </skript>
+  <script>
+      document.getElementById("submitBtn").addEventListener("click",function () {
+       alert("Hi " + document.getElementById("nameInput").value);
+      });
+  </script>
 </body>
 
 </html>
